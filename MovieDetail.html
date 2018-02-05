@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movies Information</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css" />
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+
+    <!--A navigation bar is a navigation header that is placed at the top of the page-->
+    <nav class="navbar navbar-default">
+        <div class="=container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="Index.html">Movie Info</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--classes like .row are available for quickly making grid layouts-->
+    <div class="container">
+        <div id="movie" class="row"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="Script.js"></script>
+
+    <script>
+        getMovie();
+    </script>
+
+</body>
+</html>
